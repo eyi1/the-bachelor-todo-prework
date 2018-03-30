@@ -1,6 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   # code here
-
+binding.pry
   data[season].each do |info|
     people.each do |key, value|
       if value == "Winner"
@@ -10,6 +10,7 @@ def get_first_name_of_season_winner(data, season)
       end
     end
 end
+binding.pry
 
 def get_contestant_name(data, occupation)
   # code here
