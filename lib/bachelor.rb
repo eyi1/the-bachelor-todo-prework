@@ -67,6 +67,6 @@ age = 0  # code here
     end
 answer = (age/count).round
   end
-    
+
     return answer
 end
