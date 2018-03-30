@@ -10,7 +10,6 @@ binding.pry
       end
     end
 end
-binding.pry
 
 def get_contestant_name(data, occupation)
   # code here
