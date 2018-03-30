@@ -60,7 +60,7 @@ age = 0  # code here
       info.each do |key, value|
         if key == "age"
           count += 1
-          age += value.to_i
+          age += value.to_f
       end
     end
   end
