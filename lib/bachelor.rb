@@ -36,7 +36,7 @@ def count_contestants_by_hometown(data, hometown)
         end
       end
     end
-    how_many_same_hometown   
+    how_many_same_hometown
   # code here
 end
 
@@ -45,7 +45,7 @@ def get_occupation(data, hometown)
   data.each do |season, info|
     info.each do |people|
       people.each do |key, value|
-        if value == hometown 
+        if value == hometown
           return people["occupation"]
         end
       end
