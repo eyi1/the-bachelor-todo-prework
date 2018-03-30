@@ -64,6 +64,6 @@ age = 0  # code here
       end
     end
   end
-answer = (age/count).to_i
-    return answer
+answer = (age/count)
+    return answer.round
 end
